@@ -10,6 +10,11 @@ namespace Modulue08_OOP_Delagate
     {
         static void Main(string[] args)
         {
+            
+            
+            
+            
+            Console.ReadKey();
         }
     }
 }
