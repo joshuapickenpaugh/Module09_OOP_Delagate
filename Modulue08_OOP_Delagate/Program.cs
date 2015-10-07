@@ -43,7 +43,7 @@ namespace Modulue08_OOP_Delagate
 
         public void HeyAlso()
         {
-            Console.WriteLine("Heloo from HeyAlso");
+            Console.WriteLine("Hello from HeyAlso");
         }
     }
 }
