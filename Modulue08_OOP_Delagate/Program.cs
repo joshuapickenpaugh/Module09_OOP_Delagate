@@ -15,12 +15,19 @@ namespace Modulue08_OOP_Delagate
     {
         static void Main(string[] args)
         {
+
+            Del handler = new Del(DelegateMethod);
+            handler("Hello World");
+            Program.DelegateMethod("Hello again...");
+            
+            
+            
             Console.ReadKey();
         }
 
         public static void DelegateMethod(string message)
         {
-            Console.WriteLine(message);
+            Console.WriteLine(message + " from DelagateMethod.");
         }
     }
 }
